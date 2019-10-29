@@ -1,1 +1,217 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Inicio de estilos de Header */
+
+.navbar {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-esfera {
+    width: 25%;
+    height: 10vh;
+    background: rgb(234, 238, 8);
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.navbar-centrar {
+    width: 20%;
+    margin: auto 2%;
+}
+
+.nav-titulo {
+    color: rgb(136, 132, 132);
+}
+
+
+/* Fin de estilos de Header */
+
+
+/* Inicio de estilos de App */
+
+.Basurero {
+    width: 100%;
+}
+
+
+/* Fin de estilos de App */
+
+
+/* Inicio de estilos de Home */
+
+.inicio {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('./assets/img/construccion2.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    line-height: 65px;
+    font-weight: 600;
+}
+
+.flecha {
+    margin-top: 5%;
+}
+
+.inicio div a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+/* Fin de estilos de Home */
+
+
+/* Inicio de estilos de Servicios */
+
+.servicios {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios .servicios-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-titulo .tituloservicios {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(143, 140, 140);
+}
+
+.servicios-titulo .servicios-linea {
+    width: 18vw;
+    height: 1vh;
+    background: rgb(241, 226, 5);
+}
+
+.servicios-imagenes {
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios-imagenes .contenedor-servicios {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-texserc {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-texserc h3 {
+    color: #3D5975;
+}
+
+.contenedor-texserc p {
+    height: 79%;
+    width: 90%;
+    text-align: justify;
+}
+
+
+/* Fin de estilos de Servicios */
+
+
+/* Inicio de estilos de Nosotros */
+
+.contenedorNosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    background: rgb(247, 244, 245);
+}
+
+.contenedorNosotros .nosotros1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+
+.contenedorNosotros .nosotros1 div {
+    width: 50%;
+    height: 100%;
+}
+
+.contenedorNosotros .nosotros1 .nosotrosinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotrosinfo .nosotros-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotrosinfo .nosotros-titulo .titulonosotros {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(143, 140, 140);
+}
+
+.nosotrosinfo .nosotros-titulo .nosotros-linea {
+    width: 45%;
+    height: 5%;
+    background: rgb(241, 226, 5);
+}
+
+.nosotrosimg {
+    background-image: url('./assets/img/construccion.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedorNosotros .nosotros2 {
+    height: 20%;
+    display: flex;
+    flex-direction: colums;
+    background: rgb(241, 226, 5);
+}
